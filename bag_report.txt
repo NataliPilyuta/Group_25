@@ -1,0 +1,27 @@
+ID: 1
+Summary:
+Registration passes when you enter characters through a space in the password field in the registration form
+
+Precondition:
+Open site 
+
+Steps to reproduce:
+1. Click Join Now
+2. Select in dropdown "I am e female" and "Looking for a Male" and Clikc "Continue"
+3.Enter valid data in "Email" field
+4.Enter not valid data (8 digit) in "Password" field
+5.Mark the checkbox "I confirm that I've read and agreed to the Terms and Conditions and the Privacy Policy"
+6.Click "Next"
+
+Actual result:
+Registration passes when you enter characters through a space in the password field in the registration form
+
+Expected result:
+Pop-up window with validation message
+
+Environment:
+OS Windows 10 Pro, Browser Google Chrome Version 93.0.4577.63 ( Official build), (64 bit)
+
+Severity/priority:
+
+Attachments: 
