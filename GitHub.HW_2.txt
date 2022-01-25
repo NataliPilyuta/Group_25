@@ -6,7 +6,7 @@
 - SQL
 - Charles- Mobile testing
 
-2. Запушить все ветки на внешний репозиторий  $ git push -u origin
+2. Запушить все ветки на внешний репозиторий  $ git push -origin --all
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта. $ vim bag_report.txt, 
 4. Запушить структуру багрепорта на внешний репозиторий. $ git add .,
 $git commit -m "comment", $ git push
