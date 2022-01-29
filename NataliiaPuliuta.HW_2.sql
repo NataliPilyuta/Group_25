@@ -6,7 +6,7 @@ employee_name varchar(50) not null
 select * from employees;
 
 insert into employees(employee_name)
-values 	('Ivanov'),
+	values 	('Ivanov'),
 		('Petrov'),
 		('Popov'),
 		('Sinicun'),
@@ -85,7 +85,7 @@ monthly_salary int not null
 select * from salary;
 
 insert into salary(monthly_salary)
-values 	(1000),
+	values 	(1000),
 		(1100),
 		(1200),
 		(1300),
@@ -110,15 +110,15 @@ salary_id int not null
 select * from employee_salary;
 
 insert into employee_salary(employee_id, salary_id)
-values 	(1, 5),
-		(3,	7),
-		(7,	1),
-		(2,	12),
-		(4,	6),
-		(6,	1),
+	values 	(1, 5),
+		(3, 7),
+		(7, 1),
+		(2, 12),
+		(4, 6),
+		(6, 1),
 		(40, 11),
 		(12, 3),
-		(25	15),
+		(25, 15),
 		(20, 4),
 		(15, 9),
 		(10, 1),
@@ -159,7 +159,7 @@ alter table roles
 alter column role_name type varchar(30);
 
  insert into roles(role_name)
-values  ('Junior_Python_developer'),
+	values  ('Junior_Python_developer'),
 		('Middle_Python_developer'),
 		('Senior_Python_developer'),
 		('Junior_Java_developer'),
@@ -190,7 +190,7 @@ create table roles_employee(
 	references roles(id)
 	);
 insert into roles_employee(employee_id, role_id)
-values 	(8, 5),
+	values 	(8, 5),
 		(1, 12),
 		(45, 7),
 		(22, 4),
