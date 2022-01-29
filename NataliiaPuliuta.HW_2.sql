@@ -155,6 +155,8 @@ create table roles(
 id serial primary key,
 role_name int not null unique
 );
+select * from roles;
+
 alter table roles 
 alter column role_name type varchar(30);
 
@@ -189,6 +191,8 @@ create table roles_employee(
 	foreign key (role_id)
 	references roles(id)
 	);
+select * from roles_employee;
+
 insert into roles_employee(employee_id, role_id)
 	values 	(8, 5),
 		(1, 12),
