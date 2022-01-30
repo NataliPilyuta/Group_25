@@ -178,7 +178,7 @@ alter column role_name type varchar(30);
 		('HR'),
 		('CEO'),
 		('Sales_Manager'),
-		('Junior_Automation_Q_engineer'),
+		('Junior_Automation_QA_engineer'),
 		('Middle_Automation_QA_engineer'),
 		('Senior_Automation_QA_engineer');
 	
