@@ -203,7 +203,7 @@ where role_name like '%Middle%';
 select count(role_name) from roles 
 where role_name like '%developer%';
 
-  --Вывести фонд (сумму) зарплаты разработчиков.
+  --Вывести фонд (сумму) зарплаты разработчиков
 
 select sum(monthly_salary) from salary s
 join employee_salary es on s.id=es.salary_id 
