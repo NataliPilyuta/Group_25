@@ -160,27 +160,28 @@ select * from roles;
 alter table roles 
 alter column role_name type varchar(30);
 
+
  insert into roles(role_name)
-	values  ('Junior_Python_developer'),
-		('Middle_Python_developer'),
-		('Senior_Python_developer'),
-		('Junior_Java_developer'),
-		('Middle_Java_developer'),
-		('Senior_Java_developer'),
-		('Juniorr_JavaScript_developer'),
-		('Middle_JavaScript_developer'),
-		('Senior_JavaScript_developer'),
-		('Junior_Manual_QA_engineer'),
-		('Middle_Manual_QA_engineer'),
-		('Senior_Manual_QA_engineer'),
-		('Project_Manager'),
+	values  ('Junior Python developer'),
+		('Middle Python developer'),
+		('Senior Python developer'),
+		('Junior Java developer'),
+		('Middle Java developer'),
+		('Senior Java developer'),
+		('Junior JavaScript developer'),
+		('Middle JavaScript developer'),
+		('Senior JavaScript developer'),
+		('Junior Manual QA engineer'),
+		('Middle Manual QA engineer'),
+		('Senior Manual QA engineer'),
+		('Project Manager'),
 		('Designer'),
 		('HR'),
 		('CEO'),
-		('Sales_Manager'),
-		('Junior_Automation_QA_engineer'),
-		('Middle_Automation_QA_engineer'),
-		('Senior_Automation_QA_engineer');
+		('Sales Manager'),
+		('Junior Automation QA engineer'),
+		('Middle Automation QA engineer'),
+		('Senior Automation QA engineer');
 	
 create table roles_employee(
 	id serial primary key,
